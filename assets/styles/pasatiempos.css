@@ -1,0 +1,32 @@
+@import url('shared.css');
+@import url('header-nav.css');
+
+body{
+    background: #0cebeb;
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); 
+    cursor: url('../images/curs/sharingan.png'), auto;
+}
+
+.container .header{
+    margin-top: 0 !important;
+    margin-bottom: 40px !important;
+}
+
+.content .info-container .card{
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.content{
+    margin-bottom: 40px;
+}
+
+.control-cursor{
+    cursor: url('../images/curs/PS4_Cursor.png'), pointer;
+}
+
+.header-link:hover{
+    box-shadow: 1px 4px 5px 1px rgba(0, 102, 46, 0.5);
+    color: #0d7a42;
+}

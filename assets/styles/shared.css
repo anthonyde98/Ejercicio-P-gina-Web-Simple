@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+   
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(43, 43, 43, 0.5);
+}
+
+.container .header{
+    margin: 30px auto;
+    width: 225px;
+}
+
+.container .header .title{
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-container{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.btn{
+    background-color: rgb(247, 247, 247);
+    padding: 8px 12px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}

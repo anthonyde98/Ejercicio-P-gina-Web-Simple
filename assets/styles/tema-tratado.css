@@ -1,0 +1,27 @@
+@import url('shared.css');
+@import url('header-nav.css');
+
+body{
+    background: #43C6AC;
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    background: linear-gradient(to right, #191654, #43C6AC);
+}
+
+.container .header{
+    margin-top: 0 !important;
+    margin-bottom: 40px !important;
+}
+
+.content{
+    margin-bottom: 40px;
+}
+
+.info-container{
+    padding: 20px;
+    text-align: justify;
+}
+
+.header-link:hover{
+    box-shadow: 1px 4px 5px 1px rgba(0, 102, 46, 0.5);
+    color: #0d7a42;
+}
